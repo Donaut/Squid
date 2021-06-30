@@ -1,17 +1,8 @@
-# Squid UI framework
+# So why this fork is created?
+I made this fork to implement a proper font wrapping system in Squid the current one cant handle large words that are bigger than their parents and just clips them. And secondly is to make a second branch with a simple demo app.
 
-### What is Squid?
-
-SQUID is a framework to create user interfaces for games and other 2D/3D realtime applications, using a [Retained Mode](https://en.wikipedia.org/wiki/Retained_mode) system.
-SQUID does not depend on a certain rendering engine, you can use it with any engine you like, on any platform that supports the .NET 2.0 framework.
-
-- it's a UI blackbox
-- it's easy to integrate
-- it is engine agnostic
-- it does not manage actual texture or font resources, only integers and strings
-- it doesn’t draw anything; you do
-
-All you need to do is to implement a single interface - the ISquidRenderer.
+# Can i help you?
+Sure if you find something that you think is missing from the library let it out as an issue.
 
 ### Example Screenshots
 
@@ -64,8 +55,3 @@ All you need to do is to implement a single interface - the ISquidRenderer.
 - TextBox
 - TreeView
 - Window
-
-### TODOs:
-- merge TextBox (single line) and TextArea (multi line)
-- remove Xml namespace, classes and serializer. should be external (json/yaml/etc)
-- clean up comments and commented code
